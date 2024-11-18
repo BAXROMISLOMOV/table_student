@@ -1,0 +1,73 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+body {
+    background-color: #f9f9f9;
+    margin: 20px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #search, #group-select, #firstname, #lastname, #student-group, #work-status {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #add-student, #save-student, #cancel {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #add-student:hover, #save-student:hover {
+    background-color: #218838;
+  }
+  
+  #cancel {
+    background-color: #dc3545;
+  }
+  
+  #cancel:hover {
+    background-color: #c82333;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+  }
+  
+  .student-table th, .student-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .student-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .student-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
