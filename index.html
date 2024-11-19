@@ -8,14 +8,21 @@
 </head>
 <body>
   <div class="container">
-    <div class="search-bar">
-      <input type="text" id="search" placeholder="Searching">
-      <select id="group-select">
+ 
+    <div>
+      <label for="filter-group">Filter by group:</label>
+      <input type="text" id="search-student" placeholder="Search by firstname or lastname">
+      <select id="filter-group">
+        <option value="all">All</option>
         <option value="react-n15">REACT N15</option>
+        <option value="react-n14">REACT N14</option>
+        <option value="react-n13">REACT N13</option>
       </select>
       <button id="add-student">Add student</button>
  
     </div>
+  
+    
 
     <table class="student-table">
       <thead>

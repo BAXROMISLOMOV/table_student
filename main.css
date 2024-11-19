@@ -68,6 +68,7 @@ body {
   }
   
   .student-table tbody tr:hover {
-    background-color: #f1f1f1;
+    background-color: #fff7f7;
+    transition: 2s;
   }
   
